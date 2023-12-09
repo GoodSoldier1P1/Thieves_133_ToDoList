@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+}
+
+body{
+  background-color: rgb(194, 191, 191);
+}
+
+.header{
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.taskInput {
+  margin: 5px;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 3px;
+}
+
+.timeInput {
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 3px;
+}
+
+.addBtn {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 15%;
+  background-color: rgb(209, 207, 207);
+  margin-bottom: 5vh;
+}
+
+.addBtn:hover {
+  background-color: rgb(1, 184, 1);
+}
