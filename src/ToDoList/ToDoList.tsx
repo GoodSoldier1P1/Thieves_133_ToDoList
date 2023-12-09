@@ -14,7 +14,7 @@ const ToDoList = ({task, completeTask}: Props) => {
     <div className="Task">
         <div className="content">
             <span className="addedTask">{task.taskName} - </span>
-            <span className="addedTime">{task.taskTime}</span>
+            <span className="addedTime">{task.taskTime} days left</span>
         <button className="removeBtn" onClick={() => {
             completeTask(task.taskName)
         }}><VscCircleSlash /></button>
